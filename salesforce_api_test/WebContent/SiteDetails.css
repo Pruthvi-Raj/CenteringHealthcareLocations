@@ -1,0 +1,82 @@
+@CHARSET "ISO-8859-1";
+
+
+#mapcontainer path:hover {
+	fill: #17AFDF;
+}
+
+#mapcontainer {
+
+    top: 2em;
+    right: 6em;
+    bottom: 1em;
+    height:100%;
+    margin-right: 0px;
+    
+}
+
+table {
+	border: 1px   black;
+	width:100%;
+}
+#left{
+	
+	width:40%;
+}
+#right {
+	
+	width:100%;
+	float: right;
+	
+	
+}
+
+#list {
+	z-index: 9999;
+}
+
+#myDiv {
+	display:none;
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+}
+li:hover  #myDiv  {
+	display: block;
+}
+
+input[type=text] {
+    width: 276px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left:30px;
+    background-color: white;
+    /* background-image: url('/css/searchicon.png'); */
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 20%;
+}
+
+
+@media screen and (max-width: 700px) {
+    .frame {
+        -webkit-box-orient: Horizontal;
+        -moz-box-orient: Horizontal;
+        -webkit-box-direction: normal;
+        -moz-box-direction: normal;
+        box-orient: Horizontal;
+        -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
